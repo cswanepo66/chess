@@ -1,4 +1,9 @@
-public class PawnTest extends junit.framework.TestCase{
+package chess.pieces;
+
+import junit.framework.TestCase;
+
+public class PawnTest extends TestCase {
+    
     public void testCreate() {
         Pawn firtPawn = new Pawn(Pawn.WHITE);
         assertEquals(Pawn.WHITE, firtPawn.getColor());
